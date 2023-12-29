@@ -16,8 +16,12 @@ First I created this prototype web app:
 - you can find the webapp in the "/webapp" folder of this repository. Keep in mind, that there is no sql server in this repository for serving the database to the php.
 
 I then realized having scripts for the creation of the webpage I need the app to cache all the contents and possibilities. I thought maybe its easier to code a simple app in android studio with the same functionality.
+So I used a JSON file as Checklist "Database" and iterated over that.
+The functionality is the same. 
 
 In future versions I plan to implement following features:
-- An iOs version of the Offline App
-- A checklist editor with login/security
+- Having the JSON file stored in the phones file system for exchange or implementing a sever for updating the file with checklists
+- An iOs version of the app
+- A checklist editor with login/security (I actually already wrote some code for the login)
 - Having a second site per checklist with schematics, flow-charts and so on
+  
